@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05AAA52F2B31171200EEC4B2 /* Starjedi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05AAA52D2B31171200EEC4B2 /* Starjedi.ttf */; };
+		05AAA5302B31171200EEC4B2 /* Starjhol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05AAA52E2B31171200EEC4B2 /* Starjhol.ttf */; };
 		05C73B612B048C1C00709351 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C73B602B048C1C00709351 /* AppDelegate.swift */; };
 		05C73B632B048C1C00709351 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C73B622B048C1C00709351 /* SceneDelegate.swift */; };
 		05C73B652B048C1C00709351 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C73B642B048C1C00709351 /* ViewController.swift */; };
 		05C73B682B048C1C00709351 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05C73B662B048C1C00709351 /* Main.storyboard */; };
 		05C73B6A2B048C1D00709351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05C73B692B048C1D00709351 /* Assets.xcassets */; };
 		05C73B6D2B048C1D00709351 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05C73B6B2B048C1D00709351 /* LaunchScreen.storyboard */; };
+		3C1D741060BD775C8FBA2667 /* Pods_AnimeAG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D18AAD96E7C3B1786C26DB6E /* Pods_AnimeAG.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05AAA52D2B31171200EEC4B2 /* Starjedi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjedi.ttf; sourceTree = "<group>"; };
+		05AAA52E2B31171200EEC4B2 /* Starjhol.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjhol.ttf; sourceTree = "<group>"; };
 		05C73B5D2B048C1C00709351 /* AnimeAG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimeAG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05C73B602B048C1C00709351 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05C73B622B048C1C00709351 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		05C73B692B048C1D00709351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05C73B6C2B048C1D00709351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05C73B6E2B048C1D00709351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		903553BD96123358F0FCC483 /* Pods-AnimeAG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimeAG.release.xcconfig"; path = "Target Support Files/Pods-AnimeAG/Pods-AnimeAG.release.xcconfig"; sourceTree = "<group>"; };
+		A8654F9B0AC5A626DE9D1A06 /* Pods-AnimeAG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimeAG.debug.xcconfig"; path = "Target Support Files/Pods-AnimeAG/Pods-AnimeAG.debug.xcconfig"; sourceTree = "<group>"; };
+		D18AAD96E7C3B1786C26DB6E /* Pods_AnimeAG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimeAG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C1D741060BD775C8FBA2667 /* Pods_AnimeAG.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05AAA52B2B31167400EEC4B2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				05AAA52C2B31167D00EEC4B2 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		05AAA52C2B31167D00EEC4B2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				05AAA52D2B31171200EEC4B2 /* Starjedi.ttf */,
+				05AAA52E2B31171200EEC4B2 /* Starjhol.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		05C73B542B048C1C00709351 = {
 			isa = PBXGroup;
 			children = (
 				05C73B5F2B048C1C00709351 /* AnimeAG */,
 				05C73B5E2B048C1C00709351 /* Products */,
+				2116F8B3260C881D63696E73 /* Pods */,
+				2CEE1EFF92DB370A29965DDC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +84,7 @@
 		05C73B5F2B048C1C00709351 /* AnimeAG */ = {
 			isa = PBXGroup;
 			children = (
+				05AAA52B2B31167400EEC4B2 /* Resources */,
 				05C73B602B048C1C00709351 /* AppDelegate.swift */,
 				05C73B622B048C1C00709351 /* SceneDelegate.swift */,
 				05C73B642B048C1C00709351 /* ViewController.swift */,
@@ -67,6 +96,23 @@
 			path = AnimeAG;
 			sourceTree = "<group>";
 		};
+		2116F8B3260C881D63696E73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8654F9B0AC5A626DE9D1A06 /* Pods-AnimeAG.debug.xcconfig */,
+				903553BD96123358F0FCC483 /* Pods-AnimeAG.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2CEE1EFF92DB370A29965DDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D18AAD96E7C3B1786C26DB6E /* Pods_AnimeAG.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +120,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05C73B712B048C1D00709351 /* Build configuration list for PBXNativeTarget "AnimeAG" */;
 			buildPhases = (
+				E824F6D2B8510D8E952A9005 /* [CP] Check Pods Manifest.lock */,
 				05C73B592B048C1C00709351 /* Sources */,
 				05C73B5A2B048C1C00709351 /* Frameworks */,
 				05C73B5B2B048C1C00709351 /* Resources */,
+				89F9DB50D38ED32F41423F88 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +175,55 @@
 			files = (
 				05C73B6D2B048C1D00709351 /* LaunchScreen.storyboard in Resources */,
 				05C73B6A2B048C1D00709351 /* Assets.xcassets in Resources */,
+				05AAA52F2B31171200EEC4B2 /* Starjedi.ttf in Resources */,
+				05AAA5302B31171200EEC4B2 /* Starjhol.ttf in Resources */,
 				05C73B682B048C1C00709351 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		89F9DB50D38ED32F41423F88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimeAG/Pods-AnimeAG-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimeAG/Pods-AnimeAG-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnimeAG/Pods-AnimeAG-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E824F6D2B8510D8E952A9005 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnimeAG-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		05C73B592B048C1C00709351 /* Sources */ = {
@@ -282,6 +374,7 @@
 		};
 		05C73B722B048C1D00709351 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8654F9B0AC5A626DE9D1A06 /* Pods-AnimeAG.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +402,7 @@
 		};
 		05C73B732B048C1D00709351 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 903553BD96123358F0FCC483 /* Pods-AnimeAG.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

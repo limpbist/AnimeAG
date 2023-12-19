@@ -1,0 +1,12 @@
+  platform :ios, '14.0'
+
+target 'AnimeAG' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for AnimeAG
+  pod 'Home', :path => '../Home'
+  pod 'CoreEntities', :path => '../CoreEntities'
+  pod 'CoreBootcamp', :path => '../CoreBootcamp'
+  
+end

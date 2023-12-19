@@ -6,15 +6,24 @@
 //
 
 import UIKit
-
+import Home
 class ViewController: UIViewController {
 
+    @IBOutlet weak var btnWelcome: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        print("Hello word")
+        btnWelcome.titleLabel?.textColor = .white
+        btnWelcome.titleLabel?.font = UIFont.preferredFont(forTextStyle: .largeTitle)
+        btnWelcome.backgroundColor = .red
+        btnWelcome.layer.cornerRadius = 10
+        btnWelcome.layer.shadowRadius = 10
     }
 
-
+    @IBAction func tapNavigationHome(_ sender: Any) {
+        guard let homeViewController = HomeViewBuilder.getFirstView() else { return }
+        self.navigationController?.pushViewController(homeViewController, animated: true)
+    }
+    
 }
 

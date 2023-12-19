@@ -1,0 +1,1255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		016CCBB9432A6D618C431A058755D923 /* BookCoverRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD24C626460EDCBE016108329176E908 /* BookCoverRemoteDataSource.swift */; };
+		09BCDBC00C16F6829BA31BB18146B6D5 /* ViewControllerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919CF19968792DB7A27EE97E5835E6C9 /* ViewControllerState.swift */; };
+		0A7F6219C2DD64E8A3531E15ED974355 /* Home-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B713508C096D0AD61B7FD181322778BE /* Home-dummy.m */; };
+		12FF4750B535654800077B9FF0025FB3 /* CoverTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B945CEEE42447D0F6D0521C60424E1 /* CoverTask.swift */; };
+		13C77BFE7C08C1ED0ACB3DD78E359A91 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA77D35A06722292DC5DC44047A8923 /* ReplaceMe.swift */; };
+		1A702611C818BA203F04C65EE2F4D719 /* Home.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = C8E4F2A35BCC80024F2FA61100B9A39C /* Home.storyboard */; };
+		22574C7E39AA022DB255FF087D457CEC /* Pods-AnimeAG-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E72EAE511F5E72EDEA08572753AEAE2D /* Pods-AnimeAG-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		249D303FE4DF502757BD72C3E01D5664 /* CoverViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915703C0DAD8A7B07176A3AA277A9DC /* CoverViewModel.swift */; };
+		25A37A42C905E621CD2AB4431EF6CF62 /* HomeViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE5F95845764E3B8D573B61CDF5B605 /* HomeViewBuilder.swift */; };
+		304A358B2069DE375464FA109D42D39F /* BooksRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490D4C81E2D4552205199CF36208B9EC /* BooksRemoteDataSource.swift */; };
+		33757C5EA169E82AAB98353052861668 /* ResourcesHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACCBB0C6F1A00097B2F50D716511F3F /* ResourcesHelper.swift */; };
+		33FFABF023D6DF46089365EE9E77528E /* AnimeResponseDTO+Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8C2CD256A96375C65562354273E329 /* AnimeResponseDTO+Mapping.swift */; };
+		39AC38F802DD65B544D4DC92AAAF1E86 /* HomeViewController+UIPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2623D84678CC37A1B17A5838CAB4E3F /* HomeViewController+UIPickerView.swift */; };
+		3CB5767FBBA1881087732DF19E2E338C /* Anime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31654F5F546C47C0ACDC5F5A6311F78C /* Anime.swift */; };
+		490605CE0DC540ABFFF067B2ADE4FC86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4C8725980AFA6AA511AFD9A01125B1BF /* BookCoverCacheDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C891D85B0372A5C326CB4AB6E6D88D4A /* BookCoverCacheDataSource.swift */; };
+		4D1171CE23EF356AF85137A817BFCD4D /* GetAnimeCoverUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE57305EAAD622CDA683520CB8DC4B50 /* GetAnimeCoverUseCase.swift */; };
+		4D6021FBEA8984C6FC0579AAB793E39E /* AnimeListingUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0B99605F76ACB17D07CB1ACCD5929D /* AnimeListingUseCase.swift */; };
+		4EE86DADED63A753521E94E63116BDAD /* Producer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00357B4DB292121FB5524E1B4F6ECECD /* Producer.swift */; };
+		4F1EF9807AF6E9D9D361C27EDA1DC76F /* YearRangeCalculatorUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B92935C76B9C7D35FC1871C9AF01EF /* YearRangeCalculatorUseCase.swift */; };
+		511B85227812D0592DA74DB2485E8F9E /* CoreEntities-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDDE7BDB846724BD68BE6CF76C87F0C3 /* CoreEntities-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		581D3D890EB3C06D8752E90BBC8BCFDB /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49B107D0726573E0804BE43406CF167 /* ReplaceMe.swift */; };
+		67DFE08A655DA0D27B3897CA44ECE697 /* HomeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FCE915B90D721936BFD8AC4BDDF228 /* HomeRepository.swift */; };
+		6AA08038D7A5293682CDCC835323D6CE /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CAAE54C9DA028A74311BA89595F116E /* HomeViewModel.swift */; };
+		7FD8970987C15AF0A3B8B03359198797 /* BooksTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCC067FA6C8D2B51E2FD2687E2A5C49 /* BooksTask.swift */; };
+		950EC138EC8001B6D669158AA73D41F3 /* AnimeCoverRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEF6741C1BCCEB9FCF1F172B955F15E /* AnimeCoverRepository.swift */; };
+		951F97EF236F884CE2F08A6CD0688483 /* FileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F15C2355186DE956D33387A4FCA434D /* FileHelper.swift */; };
+		99BFDC5008C7854F1F10A14EB6371EA9 /* Home-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5C9CEDA18691FFCC6A1FBB640CD1936 /* Home-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A05525EAFF48DE88E60900AFD36D8153 /* RemoteAnimeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B884DE34CA0CA2BDBFF4FB20DF60EEA3 /* RemoteAnimeRepository.swift */; };
+		A4C6E01CADA14053984AE03456F760A7 /* Pods-AnimeAG-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC39D5FD02FFD3AE3747CDA5B149BAE /* Pods-AnimeAG-dummy.m */; };
+		B17A8DABB69D78D9B6D4975CA523A0C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B1950E0AB87EE9EAE23A24C5A428D862 /* AnimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BDCA7A84BC2BD0981F8441F0F959D7 /* AnimeCell.swift */; };
+		B61899988FBAAC0DC55C4DD8C1976EBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B8CF9B2FA662748F98DC4FB6AA25FD2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C46C87F343B322771C2AE5021DA094A2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C6E0042B36BAB7388013F850CC290F /* HomeViewController.swift */; };
+		C9D0221D53E08719676E325C0D0666B2 /* BooksDataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45D035271BA93CCEF2A1C04C9DB7C3C /* BooksDataSourceProtocol.swift */; };
+		DB89C4D15223DB2D643D5320E10354CE /* CoreEntities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A9BE111D9C919374F79A95AAB7919 /* CoreEntities-dummy.m */; };
+		EE1397D9A290A8B6CDABB8CFC38E07F7 /* AnimeCoverRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12A04D01D170F8699B438AA111A8D4F /* AnimeCoverRepositoryProtocol.swift */; };
+		F011DD9B20FF10466F3CD3F4A38B5B27 /* AnimeRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245811B544B15FDD4650C85D0A4274D9 /* AnimeRepositoryProtocol.swift */; };
+		F42CBECB2037694B9E611E8B5823EC3E /* CoreBootcamp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 803DE9AAF4A5818EBF9F45A5A3CE860B /* CoreBootcamp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F538852C39556D021544692999AFBF44 /* CoreBootcamp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 241B3F06DA325955BFF04BF5B3D30FE5 /* CoreBootcamp-dummy.m */; };
+		F5405F2F70B3F43DBC0F12B1242D9BE5 /* BookCoverDataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4BFB4AC36251BB343A869C99DB4314 /* BookCoverDataSourceProtocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08840D35F6A281279EDB6F7355333561 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11CA48D24839D1C0F17AE55BC13D6A2C;
+			remoteInfo = CoreBootcamp;
+		};
+		4E1EAC3DF72FD8243BAF82690820650C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD73811BD7D86C244C3E8441D9A61392;
+			remoteInfo = CoreEntities;
+		};
+		87D6C49FA895BA1CAC332A9029BD3E65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 312AC89EA5740958D05C0FE46A095A89;
+			remoteInfo = Home;
+		};
+		A82C44CDED4819668997F71CE6A9BD3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD73811BD7D86C244C3E8441D9A61392;
+			remoteInfo = CoreEntities;
+		};
+		EB4B0BABFB565357B48B5965A50BFA7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11CA48D24839D1C0F17AE55BC13D6A2C;
+			remoteInfo = CoreBootcamp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00357B4DB292121FB5524E1B4F6ECECD /* Producer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Producer.swift; path = CoreEntities/Classes/Producer.swift; sourceTree = "<group>"; };
+		02B8CD7E022BB36C2ED0372792F536AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0AF95D2A20E05557616F0CEBD25BB27A /* CoreEntities-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CoreEntities-Info.plist"; sourceTree = "<group>"; };
+		1B595DBB97FCF616EC4ED64A0AF44F46 /* CoreBootcamp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CoreBootcamp-Info.plist"; sourceTree = "<group>"; };
+		20B945CEEE42447D0F6D0521C60424E1 /* CoverTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CoverTask.swift; sourceTree = "<group>"; };
+		241B3F06DA325955BFF04BF5B3D30FE5 /* CoreBootcamp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CoreBootcamp-dummy.m"; sourceTree = "<group>"; };
+		245811B544B15FDD4650C85D0A4274D9 /* AnimeRepositoryProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnimeRepositoryProtocol.swift; sourceTree = "<group>"; };
+		2BEF6741C1BCCEB9FCF1F172B955F15E /* AnimeCoverRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnimeCoverRepository.swift; sourceTree = "<group>"; };
+		2C23BA8B0CA632EC1757A52491086D69 /* CoreEntities */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CoreEntities; path = CoreEntities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C2A9BE111D9C919374F79A95AAB7919 /* CoreEntities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CoreEntities-dummy.m"; sourceTree = "<group>"; };
+		2CCC067FA6C8D2B51E2FD2687E2A5C49 /* BooksTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BooksTask.swift; sourceTree = "<group>"; };
+		2F15C2355186DE956D33387A4FCA434D /* FileHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FileHelper.swift; sourceTree = "<group>"; };
+		31654F5F546C47C0ACDC5F5A6311F78C /* Anime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Anime.swift; path = CoreEntities/Classes/Anime.swift; sourceTree = "<group>"; };
+		3A94BEA107547D79ED5203A2B0411AD2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3C2BE140E64291771B210F6A659051D4 /* CoreBootcamp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CoreBootcamp.modulemap; sourceTree = "<group>"; };
+		3FC8A4D67C97ED2442812896A02184CF /* Pods-AnimeAG */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AnimeAG"; path = Pods_AnimeAG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		445EB4E109DC29ED1F4BA755060A274B /* Pods-AnimeAG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimeAG.debug.xcconfig"; sourceTree = "<group>"; };
+		490D4C81E2D4552205199CF36208B9EC /* BooksRemoteDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BooksRemoteDataSource.swift; sourceTree = "<group>"; };
+		4915703C0DAD8A7B07176A3AA277A9DC /* CoverViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CoverViewModel.swift; sourceTree = "<group>"; };
+		539B29A3BBF7DE7C20C2FE3686A88D65 /* CoreEntities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoreEntities.debug.xcconfig; sourceTree = "<group>"; };
+		543D00E24BDC2703C5FB05A094F48802 /* Pods-AnimeAG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimeAG.release.xcconfig"; sourceTree = "<group>"; };
+		5463D700D5E69C3ABD00737E53E15429 /* Pods-AnimeAG-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnimeAG-Info.plist"; sourceTree = "<group>"; };
+		5578C0AF3C2772294CBF71CB27AB83D7 /* Home */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Home; path = Home.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5938B0F79AD00255D2F29B252512E196 /* Home.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Home.debug.xcconfig; sourceTree = "<group>"; };
+		5F8C2CD256A96375C65562354273E329 /* AnimeResponseDTO+Mapping.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "AnimeResponseDTO+Mapping.swift"; sourceTree = "<group>"; };
+		69B87EB49551603E2BE7CEAC133779A6 /* CoreEntities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoreEntities.release.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73FCE915B90D721936BFD8AC4BDDF228 /* HomeRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeRepository.swift; sourceTree = "<group>"; };
+		7E8C0866822644B40D04ABF28A160BA5 /* Pods-AnimeAG-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnimeAG-frameworks.sh"; sourceTree = "<group>"; };
+		7FC39D5FD02FFD3AE3747CDA5B149BAE /* Pods-AnimeAG-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AnimeAG-dummy.m"; sourceTree = "<group>"; };
+		803DE9AAF4A5818EBF9F45A5A3CE860B /* CoreBootcamp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoreBootcamp-umbrella.h"; sourceTree = "<group>"; };
+		8ACCBB0C6F1A00097B2F50D716511F3F /* ResourcesHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ResourcesHelper.swift; sourceTree = "<group>"; };
+		8CA77D35A06722292DC5DC44047A8923 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CoreBootcamp/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		8D5FA44649AF4A6001906EF27F95B6F7 /* Pods-AnimeAG-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnimeAG-acknowledgements.markdown"; sourceTree = "<group>"; };
+		919CF19968792DB7A27EE97E5835E6C9 /* ViewControllerState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewControllerState.swift; path = CoreBootcamp/Classes/ViewControllerState.swift; sourceTree = "<group>"; };
+		99BDCA7A84BC2BD0981F8441F0F959D7 /* AnimeCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnimeCell.swift; sourceTree = "<group>"; };
+		9CAAE54C9DA028A74311BA89595F116E /* HomeViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2623D84678CC37A1B17A5838CAB4E3F /* HomeViewController+UIPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "HomeViewController+UIPickerView.swift"; sourceTree = "<group>"; };
+		A2B92935C76B9C7D35FC1871C9AF01EF /* YearRangeCalculatorUseCase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = YearRangeCalculatorUseCase.swift; sourceTree = "<group>"; };
+		A3F76C3B8E20AC47B57070EEEEF4274C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A4C6E0042B36BAB7388013F850CC290F /* HomeViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A94C053D132CB07F684D67CE560CF16D /* Home-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Home-prefix.pch"; sourceTree = "<group>"; };
+		AC3207A372C7CC26EBBACCBECC0874AE /* Home.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Home.modulemap; sourceTree = "<group>"; };
+		AC4BFB4AC36251BB343A869C99DB4314 /* BookCoverDataSourceProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BookCoverDataSourceProtocol.swift; sourceTree = "<group>"; };
+		AFE5F95845764E3B8D573B61CDF5B605 /* HomeViewBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeViewBuilder.swift; sourceTree = "<group>"; };
+		B21FC59E2857B40AA510346DD43E797A /* CoreEntities-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoreEntities-prefix.pch"; sourceTree = "<group>"; };
+		B32852D5111B317FB7656173B55961EC /* Home.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Home.release.xcconfig; sourceTree = "<group>"; };
+		B45D035271BA93CCEF2A1C04C9DB7C3C /* BooksDataSourceProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BooksDataSourceProtocol.swift; sourceTree = "<group>"; };
+		B713508C096D0AD61B7FD181322778BE /* Home-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Home-dummy.m"; sourceTree = "<group>"; };
+		B884DE34CA0CA2BDBFF4FB20DF60EEA3 /* RemoteAnimeRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RemoteAnimeRepository.swift; sourceTree = "<group>"; };
+		BA3A5A139E588AAE0E1B26CDB7E0666F /* Pods-AnimeAG-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnimeAG-acknowledgements.plist"; sourceTree = "<group>"; };
+		C057DE54568687D0CA2FD5D195FB5852 /* CoreBootcamp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CoreBootcamp; path = CoreBootcamp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C291936ED26F7C0E14B33784FD0F14C4 /* CoreEntities.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CoreEntities.modulemap; sourceTree = "<group>"; };
+		C5C9CEDA18691FFCC6A1FBB640CD1936 /* Home-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Home-umbrella.h"; sourceTree = "<group>"; };
+		C891D85B0372A5C326CB4AB6E6D88D4A /* BookCoverCacheDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BookCoverCacheDataSource.swift; sourceTree = "<group>"; };
+		C8E4F2A35BCC80024F2FA61100B9A39C /* Home.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		C9E4D724A05D1F9E993EDA4CB9EB76AC /* Pods-AnimeAG.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AnimeAG.modulemap"; sourceTree = "<group>"; };
+		CC53685ABF9FB52834CC24665C409B1E /* Home-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Home-Info.plist"; sourceTree = "<group>"; };
+		CE57305EAAD622CDA683520CB8DC4B50 /* GetAnimeCoverUseCase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GetAnimeCoverUseCase.swift; sourceTree = "<group>"; };
+		CF0B99605F76ACB17D07CB1ACCD5929D /* AnimeListingUseCase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnimeListingUseCase.swift; sourceTree = "<group>"; };
+		D1CCB11179F2B6B583DFB237D358FD67 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D945E0C79A4BD187DF1BFBE38F7FBAD7 /* CoreBootcamp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoreBootcamp.release.xcconfig; sourceTree = "<group>"; };
+		DD44A9041E64486C60D2ECD2F6343E08 /* CoreBootcamp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoreBootcamp-prefix.pch"; sourceTree = "<group>"; };
+		E12A04D01D170F8699B438AA111A8D4F /* AnimeCoverRepositoryProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnimeCoverRepositoryProtocol.swift; sourceTree = "<group>"; };
+		E3EE0300D4679A0D59EBDD73A083E5AA /* CoreBootcamp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoreBootcamp.debug.xcconfig; sourceTree = "<group>"; };
+		E49B107D0726573E0804BE43406CF167 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Home/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		E4A0B95A178D3F1C9C9238347B53AB99 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E51E300FB1215B1B4AA895F9B4C2F5E7 /* CoreEntities.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CoreEntities.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E72EAE511F5E72EDEA08572753AEAE2D /* Pods-AnimeAG-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AnimeAG-umbrella.h"; sourceTree = "<group>"; };
+		E7EF6660685AA2EC816093ACC509583F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E80F8514EBA0AEB5C43F3481F0DBFC84 /* CoreBootcamp.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CoreBootcamp.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EDDE7BDB846724BD68BE6CF76C87F0C3 /* CoreEntities-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoreEntities-umbrella.h"; sourceTree = "<group>"; };
+		F10C23A0D6FA4868565A43AC4A7FD404 /* Home.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Home.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FD24C626460EDCBE016108329176E908 /* BookCoverRemoteDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BookCoverRemoteDataSource.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4791B7351061D189451D0CDFA83DFE08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61899988FBAAC0DC55C4DD8C1976EBB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A231AC00DC402D4854F106B99931307F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490605CE0DC540ABFFF067B2ADE4FC86 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF750091CBFC4B154CCCAC88FDF4EC24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17A8DABB69D78D9B6D4975CA523A0C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9AFD8077FE51CDC3535123085B594C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8CF9B2FA662748F98DC4FB6AA25FD2D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A713A3343A948B2D2E0CEEA379ABC1D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C291936ED26F7C0E14B33784FD0F14C4 /* CoreEntities.modulemap */,
+				2C2A9BE111D9C919374F79A95AAB7919 /* CoreEntities-dummy.m */,
+				0AF95D2A20E05557616F0CEBD25BB27A /* CoreEntities-Info.plist */,
+				B21FC59E2857B40AA510346DD43E797A /* CoreEntities-prefix.pch */,
+				EDDE7BDB846724BD68BE6CF76C87F0C3 /* CoreEntities-umbrella.h */,
+				539B29A3BBF7DE7C20C2FE3686A88D65 /* CoreEntities.debug.xcconfig */,
+				69B87EB49551603E2BE7CEAC133779A6 /* CoreEntities.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../AnimeAG/Pods/Target Support Files/CoreEntities";
+			sourceTree = "<group>";
+		};
+		1BA3A34F1DC253CB4AD17107E77929F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99BDCA7A84BC2BD0981F8441F0F959D7 /* AnimeCell.swift */,
+				C8E4F2A35BCC80024F2FA61100B9A39C /* Home.storyboard */,
+				AFE5F95845764E3B8D573B61CDF5B605 /* HomeViewBuilder.swift */,
+				A4C6E0042B36BAB7388013F850CC290F /* HomeViewController.swift */,
+				A2623D84678CC37A1B17A5838CAB4E3F /* HomeViewController+UIPickerView.swift */,
+				8ACCBB0C6F1A00097B2F50D716511F3F /* ResourcesHelper.swift */,
+			);
+			name = View;
+			path = Home/Classes/View;
+			sourceTree = "<group>";
+		};
+		1C1BFD24E5EEB753A64502814821B594 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E49B107D0726573E0804BE43406CF167 /* ReplaceMe.swift */,
+				27CFFCF8481D9AFAD9D4B43CA391C039 /* BooksEntitiesDTO */,
+				82CB16BE1BB657869B4DBE0B94C96771 /* Data */,
+				F68B1CEFF1B39FF86DA6CDE84E445FA7 /* Domain */,
+				42D75C162669BECF4FD238A9D7B5674D /* Pod */,
+				6DCB7DE4E5507786826525DF894833DA /* Repository */,
+				2702DEB06365E44A7B6961E33ECA71E4 /* Support Files */,
+				1BA3A34F1DC253CB4AD17107E77929F4 /* View */,
+				39CB1A560175C36D73C7C300DBC09DBC /* ViewModel */,
+			);
+			name = Home;
+			path = ../../Home;
+			sourceTree = "<group>";
+		};
+		25BC347CA8E0CA1B850D5AEA4A1004EA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE79159F6D8D3B44B6594C7F32BB7E62 /* CoreBootcamp */,
+				702A8B282B8DE251433F67C19E6D4502 /* CoreEntities */,
+				1C1BFD24E5EEB753A64502814821B594 /* Home */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2702DEB06365E44A7B6961E33ECA71E4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC3207A372C7CC26EBBACCBECC0874AE /* Home.modulemap */,
+				B713508C096D0AD61B7FD181322778BE /* Home-dummy.m */,
+				CC53685ABF9FB52834CC24665C409B1E /* Home-Info.plist */,
+				A94C053D132CB07F684D67CE560CF16D /* Home-prefix.pch */,
+				C5C9CEDA18691FFCC6A1FBB640CD1936 /* Home-umbrella.h */,
+				5938B0F79AD00255D2F29B252512E196 /* Home.debug.xcconfig */,
+				B32852D5111B317FB7656173B55961EC /* Home.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../AnimeAG/Pods/Target Support Files/Home";
+			sourceTree = "<group>";
+		};
+		27CFFCF8481D9AFAD9D4B43CA391C039 /* BooksEntitiesDTO */ = {
+			isa = PBXGroup;
+			children = (
+				5F8C2CD256A96375C65562354273E329 /* AnimeResponseDTO+Mapping.swift */,
+			);
+			name = BooksEntitiesDTO;
+			path = Home/Classes/BooksEntitiesDTO;
+			sourceTree = "<group>";
+		};
+		39CB1A560175C36D73C7C300DBC09DBC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4915703C0DAD8A7B07176A3AA277A9DC /* CoverViewModel.swift */,
+				9CAAE54C9DA028A74311BA89595F116E /* HomeViewModel.swift */,
+			);
+			name = ViewModel;
+			path = Home/Classes/ViewModel;
+			sourceTree = "<group>";
+		};
+		42D75C162669BECF4FD238A9D7B5674D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F10C23A0D6FA4868565A43AC4A7FD404 /* Home.podspec */,
+				3A94BEA107547D79ED5203A2B0411AD2 /* LICENSE */,
+				02B8CD7E022BB36C2ED0372792F536AE /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		521A8DFD33FDB342451C18AFAA0FFB9D /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				F3CAB95D51B64F6AE608C0677242EBB0 /* Repositores */,
+			);
+			name = Interfaces;
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5D56059C6F8FC1275304CE71510A7BB1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E51E300FB1215B1B4AA895F9B4C2F5E7 /* CoreEntities.podspec */,
+				D1CCB11179F2B6B583DFB237D358FD67 /* LICENSE */,
+				E4A0B95A178D3F1C9C9238347B53AB99 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6DCB7DE4E5507786826525DF894833DA /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				73FCE915B90D721936BFD8AC4BDDF228 /* HomeRepository.swift */,
+			);
+			name = Repository;
+			path = Home/Classes/Repository;
+			sourceTree = "<group>";
+		};
+		702A8B282B8DE251433F67C19E6D4502 /* CoreEntities */ = {
+			isa = PBXGroup;
+			children = (
+				31654F5F546C47C0ACDC5F5A6311F78C /* Anime.swift */,
+				00357B4DB292121FB5524E1B4F6ECECD /* Producer.swift */,
+				5D56059C6F8FC1275304CE71510A7BB1 /* Pod */,
+				1A713A3343A948B2D2E0CEEA379ABC1D /* Support Files */,
+			);
+			name = CoreEntities;
+			path = ../../CoreEntities;
+			sourceTree = "<group>";
+		};
+		7D160DA8AB5DE43C58A4D6FE7299D7DE /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				C891D85B0372A5C326CB4AB6E6D88D4A /* BookCoverCacheDataSource.swift */,
+				AC4BFB4AC36251BB343A869C99DB4314 /* BookCoverDataSourceProtocol.swift */,
+				FD24C626460EDCBE016108329176E908 /* BookCoverRemoteDataSource.swift */,
+				B45D035271BA93CCEF2A1C04C9DB7C3C /* BooksDataSourceProtocol.swift */,
+				490D4C81E2D4552205199CF36208B9EC /* BooksRemoteDataSource.swift */,
+				2CCC067FA6C8D2B51E2FD2687E2A5C49 /* BooksTask.swift */,
+				20B945CEEE42447D0F6D0521C60424E1 /* CoverTask.swift */,
+				2F15C2355186DE956D33387A4FCA434D /* FileHelper.swift */,
+			);
+			name = Remote;
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		82CB16BE1BB657869B4DBE0B94C96771 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7D160DA8AB5DE43C58A4D6FE7299D7DE /* Remote */,
+				AE4FE03ECFC0D88465E6A220539319A5 /* Repositores */,
+			);
+			name = Data;
+			path = Home/Classes/Data;
+			sourceTree = "<group>";
+		};
+		8959ED61E0D84FAF9087963949A8BCB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C057DE54568687D0CA2FD5D195FB5852 /* CoreBootcamp */,
+				2C23BA8B0CA632EC1757A52491086D69 /* CoreEntities */,
+				5578C0AF3C2772294CBF71CB27AB83D7 /* Home */,
+				3FC8A4D67C97ED2442812896A02184CF /* Pods-AnimeAG */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		908CB014C3FE8DB0FBBD4B01B433AEED /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C2BE140E64291771B210F6A659051D4 /* CoreBootcamp.modulemap */,
+				241B3F06DA325955BFF04BF5B3D30FE5 /* CoreBootcamp-dummy.m */,
+				1B595DBB97FCF616EC4ED64A0AF44F46 /* CoreBootcamp-Info.plist */,
+				DD44A9041E64486C60D2ECD2F6343E08 /* CoreBootcamp-prefix.pch */,
+				803DE9AAF4A5818EBF9F45A5A3CE860B /* CoreBootcamp-umbrella.h */,
+				E3EE0300D4679A0D59EBDD73A083E5AA /* CoreBootcamp.debug.xcconfig */,
+				D945E0C79A4BD187DF1BFBE38F7FBAD7 /* CoreBootcamp.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../AnimeAG/Pods/Target Support Files/CoreBootcamp";
+			sourceTree = "<group>";
+		};
+		9E1395FA1E1260CEB064B4C8279AD067 /* Pods-AnimeAG */ = {
+			isa = PBXGroup;
+			children = (
+				C9E4D724A05D1F9E993EDA4CB9EB76AC /* Pods-AnimeAG.modulemap */,
+				8D5FA44649AF4A6001906EF27F95B6F7 /* Pods-AnimeAG-acknowledgements.markdown */,
+				BA3A5A139E588AAE0E1B26CDB7E0666F /* Pods-AnimeAG-acknowledgements.plist */,
+				7FC39D5FD02FFD3AE3747CDA5B149BAE /* Pods-AnimeAG-dummy.m */,
+				7E8C0866822644B40D04ABF28A160BA5 /* Pods-AnimeAG-frameworks.sh */,
+				5463D700D5E69C3ABD00737E53E15429 /* Pods-AnimeAG-Info.plist */,
+				E72EAE511F5E72EDEA08572753AEAE2D /* Pods-AnimeAG-umbrella.h */,
+				445EB4E109DC29ED1F4BA755060A274B /* Pods-AnimeAG.debug.xcconfig */,
+				543D00E24BDC2703C5FB05A094F48802 /* Pods-AnimeAG.release.xcconfig */,
+			);
+			name = "Pods-AnimeAG";
+			path = "Target Support Files/Pods-AnimeAG";
+			sourceTree = "<group>";
+		};
+		A6CDAC74C38908403960FEF4E56C8A9E /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				CF0B99605F76ACB17D07CB1ACCD5929D /* AnimeListingUseCase.swift */,
+				CE57305EAAD622CDA683520CB8DC4B50 /* GetAnimeCoverUseCase.swift */,
+				A2B92935C76B9C7D35FC1871C9AF01EF /* YearRangeCalculatorUseCase.swift */,
+			);
+			name = UseCases;
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		AE4FE03ECFC0D88465E6A220539319A5 /* Repositores */ = {
+			isa = PBXGroup;
+			children = (
+				2BEF6741C1BCCEB9FCF1F172B955F15E /* AnimeCoverRepository.swift */,
+				B884DE34CA0CA2BDBFF4FB20DF60EEA3 /* RemoteAnimeRepository.swift */,
+			);
+			name = Repositores;
+			path = Repositores;
+			sourceTree = "<group>";
+		};
+		B3E5A82EA694860DEFD6D31903B66B8B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E80F8514EBA0AEB5C43F3481F0DBFC84 /* CoreBootcamp.podspec */,
+				E7EF6660685AA2EC816093ACC509583F /* LICENSE */,
+				A3F76C3B8E20AC47B57070EEEEF4274C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BE79159F6D8D3B44B6594C7F32BB7E62 /* CoreBootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				8CA77D35A06722292DC5DC44047A8923 /* ReplaceMe.swift */,
+				919CF19968792DB7A27EE97E5835E6C9 /* ViewControllerState.swift */,
+				B3E5A82EA694860DEFD6D31903B66B8B /* Pod */,
+				908CB014C3FE8DB0FBBD4B01B433AEED /* Support Files */,
+			);
+			name = CoreBootcamp;
+			path = ../../CoreBootcamp;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				25BC347CA8E0CA1B850D5AEA4A1004EA /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8959ED61E0D84FAF9087963949A8BCB9 /* Products */,
+				F9D3D0868A470B65FD345C0F46B7D1EF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3CAB95D51B64F6AE608C0677242EBB0 /* Repositores */ = {
+			isa = PBXGroup;
+			children = (
+				E12A04D01D170F8699B438AA111A8D4F /* AnimeCoverRepositoryProtocol.swift */,
+				245811B544B15FDD4650C85D0A4274D9 /* AnimeRepositoryProtocol.swift */,
+			);
+			name = Repositores;
+			path = Repositores;
+			sourceTree = "<group>";
+		};
+		F68B1CEFF1B39FF86DA6CDE84E445FA7 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				521A8DFD33FDB342451C18AFAA0FFB9D /* Interfaces */,
+				A6CDAC74C38908403960FEF4E56C8A9E /* UseCases */,
+			);
+			name = Domain;
+			path = Home/Classes/Domain;
+			sourceTree = "<group>";
+		};
+		F9D3D0868A470B65FD345C0F46B7D1EF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E1395FA1E1260CEB064B4C8279AD067 /* Pods-AnimeAG */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0FDCE9B2D167CA5566455E2865B9F8B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				511B85227812D0592DA74DB2485E8F9E /* CoreEntities-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AA20EC4E05CCB4C55636DB176AF1BB0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22574C7E39AA022DB255FF087D457CEC /* Pods-AnimeAG-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0C76EE7489F0822E2902E7DF62E2E49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42CBECB2037694B9E611E8B5823EC3E /* CoreBootcamp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BD717741AF570E81247F051846CAD2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99BFDC5008C7854F1F10A14EB6371EA9 /* Home-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		11CA48D24839D1C0F17AE55BC13D6A2C /* CoreBootcamp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4688CBDC60AC6B74666A11ACC633F3B /* Build configuration list for PBXNativeTarget "CoreBootcamp" */;
+			buildPhases = (
+				F0C76EE7489F0822E2902E7DF62E2E49 /* Headers */,
+				43667A7573D9DE5C0A6F947815E10C3A /* Sources */,
+				4791B7351061D189451D0CDFA83DFE08 /* Frameworks */,
+				C7232A94D9F816C1DAF2588FD4795EA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreBootcamp;
+			productName = CoreBootcamp;
+			productReference = C057DE54568687D0CA2FD5D195FB5852 /* CoreBootcamp */;
+			productType = "com.apple.product-type.framework";
+		};
+		312AC89EA5740958D05C0FE46A095A89 /* Home */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7B3F0C89FBB433F11414A388E27159 /* Build configuration list for PBXNativeTarget "Home" */;
+			buildPhases = (
+				F9BD717741AF570E81247F051846CAD2 /* Headers */,
+				7E1A6E55571860717F12B7224507467A /* Sources */,
+				FA9AFD8077FE51CDC3535123085B594C /* Frameworks */,
+				74C55812A9A65B17DC44BA0E423079A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE2C5EDF4A5A33E55DC3B98540EE991B /* PBXTargetDependency */,
+				0B076FD28CC3709EAE4004D313C8779B /* PBXTargetDependency */,
+			);
+			name = Home;
+			productName = Home;
+			productReference = 5578C0AF3C2772294CBF71CB27AB83D7 /* Home */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD73811BD7D86C244C3E8441D9A61392 /* CoreEntities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52CEFCAE3AE23D7823AB1E8EA4821825 /* Build configuration list for PBXNativeTarget "CoreEntities" */;
+			buildPhases = (
+				0FDCE9B2D167CA5566455E2865B9F8B7 /* Headers */,
+				9F75325F9472919C5ED4BB08A37DF572 /* Sources */,
+				DF750091CBFC4B154CCCAC88FDF4EC24 /* Frameworks */,
+				B8B1E4A84997EBD65014B305B802B775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreEntities;
+			productName = CoreEntities;
+			productReference = 2C23BA8B0CA632EC1757A52491086D69 /* CoreEntities */;
+			productType = "com.apple.product-type.framework";
+		};
+		EA4289964D89D3681289C1227C62B55A /* Pods-AnimeAG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7DBBBEDC0DE56E60904D2066F6DEB0 /* Build configuration list for PBXNativeTarget "Pods-AnimeAG" */;
+			buildPhases = (
+				6AA20EC4E05CCB4C55636DB176AF1BB0 /* Headers */,
+				5F9A3BCB3333B19CFFA58075E1C82902 /* Sources */,
+				A231AC00DC402D4854F106B99931307F /* Frameworks */,
+				9E83234D0B438F59E20C5063D595E60D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C66578C54666F65DE9C798DE0A3B070 /* PBXTargetDependency */,
+				BA4BEA01418D05E22546995170B3709A /* PBXTargetDependency */,
+				4FD6F51D7AC4C887E00FE22F42ECC52B /* PBXTargetDependency */,
+			);
+			name = "Pods-AnimeAG";
+			productName = Pods_AnimeAG;
+			productReference = 3FC8A4D67C97ED2442812896A02184CF /* Pods-AnimeAG */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8959ED61E0D84FAF9087963949A8BCB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11CA48D24839D1C0F17AE55BC13D6A2C /* CoreBootcamp */,
+				BD73811BD7D86C244C3E8441D9A61392 /* CoreEntities */,
+				312AC89EA5740958D05C0FE46A095A89 /* Home */,
+				EA4289964D89D3681289C1227C62B55A /* Pods-AnimeAG */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74C55812A9A65B17DC44BA0E423079A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E83234D0B438F59E20C5063D595E60D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B1E4A84997EBD65014B305B802B775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7232A94D9F816C1DAF2588FD4795EA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43667A7573D9DE5C0A6F947815E10C3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F538852C39556D021544692999AFBF44 /* CoreBootcamp-dummy.m in Sources */,
+				13C77BFE7C08C1ED0ACB3DD78E359A91 /* ReplaceMe.swift in Sources */,
+				09BCDBC00C16F6829BA31BB18146B6D5 /* ViewControllerState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F9A3BCB3333B19CFFA58075E1C82902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C6E01CADA14053984AE03456F760A7 /* Pods-AnimeAG-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E1A6E55571860717F12B7224507467A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1950E0AB87EE9EAE23A24C5A428D862 /* AnimeCell.swift in Sources */,
+				950EC138EC8001B6D669158AA73D41F3 /* AnimeCoverRepository.swift in Sources */,
+				EE1397D9A290A8B6CDABB8CFC38E07F7 /* AnimeCoverRepositoryProtocol.swift in Sources */,
+				4D6021FBEA8984C6FC0579AAB793E39E /* AnimeListingUseCase.swift in Sources */,
+				F011DD9B20FF10466F3CD3F4A38B5B27 /* AnimeRepositoryProtocol.swift in Sources */,
+				33FFABF023D6DF46089365EE9E77528E /* AnimeResponseDTO+Mapping.swift in Sources */,
+				4C8725980AFA6AA511AFD9A01125B1BF /* BookCoverCacheDataSource.swift in Sources */,
+				F5405F2F70B3F43DBC0F12B1242D9BE5 /* BookCoverDataSourceProtocol.swift in Sources */,
+				016CCBB9432A6D618C431A058755D923 /* BookCoverRemoteDataSource.swift in Sources */,
+				C9D0221D53E08719676E325C0D0666B2 /* BooksDataSourceProtocol.swift in Sources */,
+				304A358B2069DE375464FA109D42D39F /* BooksRemoteDataSource.swift in Sources */,
+				7FD8970987C15AF0A3B8B03359198797 /* BooksTask.swift in Sources */,
+				12FF4750B535654800077B9FF0025FB3 /* CoverTask.swift in Sources */,
+				249D303FE4DF502757BD72C3E01D5664 /* CoverViewModel.swift in Sources */,
+				951F97EF236F884CE2F08A6CD0688483 /* FileHelper.swift in Sources */,
+				4D1171CE23EF356AF85137A817BFCD4D /* GetAnimeCoverUseCase.swift in Sources */,
+				1A702611C818BA203F04C65EE2F4D719 /* Home.storyboard in Sources */,
+				0A7F6219C2DD64E8A3531E15ED974355 /* Home-dummy.m in Sources */,
+				67DFE08A655DA0D27B3897CA44ECE697 /* HomeRepository.swift in Sources */,
+				25A37A42C905E621CD2AB4431EF6CF62 /* HomeViewBuilder.swift in Sources */,
+				C46C87F343B322771C2AE5021DA094A2 /* HomeViewController.swift in Sources */,
+				39AC38F802DD65B544D4DC92AAAF1E86 /* HomeViewController+UIPickerView.swift in Sources */,
+				6AA08038D7A5293682CDCC835323D6CE /* HomeViewModel.swift in Sources */,
+				A05525EAFF48DE88E60900AFD36D8153 /* RemoteAnimeRepository.swift in Sources */,
+				581D3D890EB3C06D8752E90BBC8BCFDB /* ReplaceMe.swift in Sources */,
+				33757C5EA169E82AAB98353052861668 /* ResourcesHelper.swift in Sources */,
+				4F1EF9807AF6E9D9D361C27EDA1DC76F /* YearRangeCalculatorUseCase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F75325F9472919C5ED4BB08A37DF572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB5767FBBA1881087732DF19E2E338C /* Anime.swift in Sources */,
+				DB89C4D15223DB2D643D5320E10354CE /* CoreEntities-dummy.m in Sources */,
+				4EE86DADED63A753521E94E63116BDAD /* Producer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B076FD28CC3709EAE4004D313C8779B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CoreEntities;
+			target = BD73811BD7D86C244C3E8441D9A61392 /* CoreEntities */;
+			targetProxy = 4E1EAC3DF72FD8243BAF82690820650C /* PBXContainerItemProxy */;
+		};
+		4FD6F51D7AC4C887E00FE22F42ECC52B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Home;
+			target = 312AC89EA5740958D05C0FE46A095A89 /* Home */;
+			targetProxy = 87D6C49FA895BA1CAC332A9029BD3E65 /* PBXContainerItemProxy */;
+		};
+		6C66578C54666F65DE9C798DE0A3B070 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CoreBootcamp;
+			target = 11CA48D24839D1C0F17AE55BC13D6A2C /* CoreBootcamp */;
+			targetProxy = EB4B0BABFB565357B48B5965A50BFA7B /* PBXContainerItemProxy */;
+		};
+		BA4BEA01418D05E22546995170B3709A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CoreEntities;
+			target = BD73811BD7D86C244C3E8441D9A61392 /* CoreEntities */;
+			targetProxy = A82C44CDED4819668997F71CE6A9BD3F /* PBXContainerItemProxy */;
+		};
+		DE2C5EDF4A5A33E55DC3B98540EE991B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CoreBootcamp;
+			target = 11CA48D24839D1C0F17AE55BC13D6A2C /* CoreBootcamp */;
+			targetProxy = 08840D35F6A281279EDB6F7355333561 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2A667A493E60A26F6FB2954AE94555CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 445EB4E109DC29ED1F4BA755060A274B /* Pods-AnimeAG.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AnimeAG/Pods-AnimeAG-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AnimeAG/Pods-AnimeAG.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2CFFD1356E2D89E84B0E47FBD5BEC41A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3EE0300D4679A0D59EBDD73A083E5AA /* CoreBootcamp.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CoreBootcamp/CoreBootcamp-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CoreBootcamp/CoreBootcamp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CoreBootcamp/CoreBootcamp.modulemap";
+				PRODUCT_MODULE_NAME = CoreBootcamp;
+				PRODUCT_NAME = CoreBootcamp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3D3EC70C4ABF86304236B95BB79CC833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 543D00E24BDC2703C5FB05A094F48802 /* Pods-AnimeAG.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AnimeAG/Pods-AnimeAG-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AnimeAG/Pods-AnimeAG.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46DAC48FC17599014DCA4C783B7A0DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B32852D5111B317FB7656173B55961EC /* Home.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Home/Home-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Home/Home-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Home/Home.modulemap";
+				PRODUCT_MODULE_NAME = Home;
+				PRODUCT_NAME = Home;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4ABD3DDAF108902D05ABFBE43BDA9EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69B87EB49551603E2BE7CEAC133779A6 /* CoreEntities.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CoreEntities/CoreEntities-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CoreEntities/CoreEntities-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CoreEntities/CoreEntities.modulemap";
+				PRODUCT_MODULE_NAME = CoreEntities;
+				PRODUCT_NAME = CoreEntities;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7EB4CAB562CBC454B6C023DBF8EDDC0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5938B0F79AD00255D2F29B252512E196 /* Home.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Home/Home-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Home/Home-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Home/Home.modulemap";
+				PRODUCT_MODULE_NAME = Home;
+				PRODUCT_NAME = Home;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		851960E38BC3FC91DF075D9B67A11D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 539B29A3BBF7DE7C20C2FE3686A88D65 /* CoreEntities.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CoreEntities/CoreEntities-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CoreEntities/CoreEntities-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CoreEntities/CoreEntities.modulemap";
+				PRODUCT_MODULE_NAME = CoreEntities;
+				PRODUCT_NAME = CoreEntities;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A8B3B05272271446CDFA52459BCA5628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D945E0C79A4BD187DF1BFBE38F7FBAD7 /* CoreBootcamp.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CoreBootcamp/CoreBootcamp-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CoreBootcamp/CoreBootcamp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CoreBootcamp/CoreBootcamp.modulemap";
+				PRODUCT_MODULE_NAME = CoreBootcamp;
+				PRODUCT_NAME = CoreBootcamp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52CEFCAE3AE23D7823AB1E8EA4821825 /* Build configuration list for PBXNativeTarget "CoreEntities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851960E38BC3FC91DF075D9B67A11D09 /* Debug */,
+				4ABD3DDAF108902D05ABFBE43BDA9EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4688CBDC60AC6B74666A11ACC633F3B /* Build configuration list for PBXNativeTarget "CoreBootcamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CFFD1356E2D89E84B0E47FBD5BEC41A /* Debug */,
+				A8B3B05272271446CDFA52459BCA5628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD7DBBBEDC0DE56E60904D2066F6DEB0 /* Build configuration list for PBXNativeTarget "Pods-AnimeAG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A667A493E60A26F6FB2954AE94555CC /* Debug */,
+				3D3EC70C4ABF86304236B95BB79CC833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE7B3F0C89FBB433F11414A388E27159 /* Build configuration list for PBXNativeTarget "Home" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EB4CAB562CBC454B6C023DBF8EDDC0F /* Debug */,
+				46DAC48FC17599014DCA4C783B7A0DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
