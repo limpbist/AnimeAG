@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func tapNavigationHome(_ sender: Any) {
-        guard let homeViewController = HomeViewBuilder.getFirstView() else { return }
+        guard let homeViewController = HomeViewFactory.getFirstView() else { return }
         self.navigationController?.pushViewController(homeViewController, animated: true)
     }
     
