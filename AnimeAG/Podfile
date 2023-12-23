@@ -5,7 +5,7 @@ target 'AnimeAG' do
   use_frameworks!
 
   # Pods for AnimeAG
-  pod 'Home', :path => '../Home'
+  pod 'Home', :path => '../Home', :testspecs => ['IntegratedTest', 'UnitTests']
   pod 'CoreEntities', :path => '../CoreEntities'
   pod 'CoreBootcamp', :path => '../CoreBootcamp'
   
